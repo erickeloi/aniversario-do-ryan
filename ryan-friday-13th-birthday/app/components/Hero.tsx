@@ -31,7 +31,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5 }}
           className="text-5xl md:text-7xl font-extrabold mb-4 text-red-600 drop-shadow-lg"
         >
-          Participe de um Jantar de Aniversário de Matar (A Fome)!
+          Participe de um Jantar de Matar (A Fome)!
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Calendar, Clock, MapPin, Skull } from 'lucide-react'
 
-const eventDate = new Date('2023-10-13T20:00:00')
+const eventDate = new Date('2024-12-13T18:30:00')
 
 export default function EventHighlights() {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft())
@@ -20,18 +20,18 @@ export default function EventHighlights() {
   function getTimeLeft() {
     const difference = +eventDate - +new Date()
     return {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-      minutes: Math.floor((difference / 1000 / 60) % 60),
-      seconds: Math.floor((difference / 1000) % 60)
+      dias: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      horas: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutos: Math.floor((difference / 1000 / 60) % 60),
+      segundos: Math.floor((difference / 1000) % 60)
     }
   }
 
   const highlights = [
-    { icon: Calendar, text: 'Friday, October 13, 2023' },
-    { icon: Clock, text: '8:00 PM' },
-    { icon: MapPin, text: 'Crystal Lake Campground' },
-    { icon: Skull, text: 'Horror Movie Marathon' }
+    { icon: Calendar, text: 'Sexta Feira, 13 de Dezembro, 2024' },
+    { icon: Clock, text: '18:30 PM' },
+    { icon: MapPin, text: 'Crystal Lake (Casa Grande)' },
+    { icon: Skull, text: 'Jantar de Aniversário!' }
   ]
 
   return (

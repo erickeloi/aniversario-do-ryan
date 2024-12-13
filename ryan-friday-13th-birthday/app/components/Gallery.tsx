@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const images = [
-  '/images/imagem1.jpeg',
-  '/images/imagem2.jpeg',
-  '/images/imagem3.jpeg',
-  '/images/imagem4.jpeg'
+  '/imagem1.jpeg',
+  '/imagem2.jpeg',
+  '/imagem3.jpeg',
+  '/imagem4.jpeg'
 ]
 
 export default function Gallery() {
