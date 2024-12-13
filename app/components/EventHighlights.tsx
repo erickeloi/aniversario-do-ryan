@@ -29,7 +29,7 @@ export default function EventHighlights() {
 
   const highlights = [
     { icon: Calendar, text: 'Sexta Feira, 13 de Dezembro, 2024' },
-    { icon: Clock, text: '20:00 PM' },
+    { icon: Clock, text: '20h00' },
     { icon: MapPin, text: 'Crystal Lake (Casa Grande)' },
     { icon: Skull, text: 'Jantar de Aniversário!' }
   ]
