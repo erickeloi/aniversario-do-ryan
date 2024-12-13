@@ -28,9 +28,9 @@ export default function VisualStory() {
         >
           <h2 className="text-4xl font-bold mb-6">Uma Noite a ser Lembrada</h2>
           <p className="text-lg mb-8">
-          Entre no mundo sombrio de Crystal Lake (Casa Grande, Muaná/Pará), onde sombras espreitam e mistérios abundam. 
-          Nossa festa de aniversário de Sexta-feira 13 promete uma noite emocionante repleta de comidas de arrepiar, 
-          contos fantasmagóricos e memórias inesquecíveis. 
+          Entre no mundo sombrio de Crystal Lake (Casa Grande, Muaná/Pará),<br></br>Onde sombras espreitam e mistérios abundam.<br></br> 
+          Nossa festa de aniversário de Sexta-feira 13 promete uma noite emocionante repleta de comidas de arrepiar,<br></br>
+          Contos fantasmagóricos e memórias inesquecíveis.<br></br><br></br>
           Você é corajoso o suficiente para se juntar a nós?
           </p>
           <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">

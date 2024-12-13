@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 text-center text-gray-400">
           <p>&copy; 2024 - Janta de Aniversário de Sexta-Feira 13.</p>
-          <p>Site feito por Erick Eloi, em seu tempo livre</p>
+          <p>Site feito por Erick Eloi, em seu tempo livre.</p>
         </div>
       </div>
     </footer>
